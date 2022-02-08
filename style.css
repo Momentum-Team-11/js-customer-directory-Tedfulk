@@ -1,0 +1,20 @@
+.container {
+  margin-left: 2rem;
+}
+
+header {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  margin-left: 2rem;
+}
+
+img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 80%;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 50%;
+}
+p {
+  color: gray;
+}
