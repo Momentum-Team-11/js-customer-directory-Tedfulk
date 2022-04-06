@@ -57,10 +57,9 @@ const usStates = [
   { name: 'WASHINGTON', abbreviation: 'WA' },
   { name: 'WEST VIRGINIA', abbreviation: 'WV' },
   { name: 'WISCONSIN', abbreviation: 'WI' },
-  { name: 'WYOMING', abbreviation: 'WY' }
-]
+  { name: 'WYOMING', abbreviation: 'WY' },
 
-function nameToAbbr (stateName) {
+  function nameToAbbr (stateName) {
   const idx = usStates.findIndex(function (state) {
     return state.name === stateName.toUpperCase()
   })
@@ -71,3 +70,5 @@ function nameToAbbr (stateName) {
 
   return usStates[idx].abbreviation
 }
+]
+
